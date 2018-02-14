@@ -106,7 +106,7 @@ input,
 #top-form input,
 #topics,
 #state {
-  width: 100%;
+  width: 70%;
 }
 
  input#zip {
@@ -185,7 +185,7 @@ footer {
 } */
 
 input#zip{
-  width:40%;
+  width:35%;
 
 }
 
