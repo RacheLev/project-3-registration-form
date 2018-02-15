@@ -15,6 +15,7 @@ body {
 .wrapper {
   width: 95%;
   margin: 0 auto;
+
 }
 
 /************** Main ***************
@@ -33,13 +34,21 @@ h1 {
 }
 
 /* body */
+.bgr {
+background-color: #cbf4f4;
+border-radius: 10px;
+padding-top:
+}
 .signU{
   text-align: center;
 }
-h2 {
+legend span{
+  font-weight: 700;
   color: #2d3035;
   font-weight: 700;
   text-align: left;
+  font-size: 1.3em;
+
 }
 
 .latest_news {
@@ -63,19 +72,18 @@ h2 {
 }
 /* form */
 #top-form {
-  background-color: #cbf4f4;
   border-radius: 10px;
   margin: 2em 0;
+
 }
+
 #bottom-form{
-  background-color: #cbf4f4;
+  /* background-color: #cbf4f4; */
   border-radius: 10px;
   margin-top: 2em;
   padding-bottom: 2em;
 }
-legend {
-  font-weight: 700;
-}
+
 
  fieldset {
   border: none;
@@ -106,7 +114,7 @@ input,
 #top-form input,
 #topics,
 #state {
-  width: 70%;
+  width: 100%;
 }
 
  input#zip {
@@ -176,13 +184,14 @@ footer {
 .latest_news {
   margin-bottom: 2em;
 }
-
+#top-form input,
+#topics,
+#state {
+  width: 70%;
+}
 #top-form {
   margin-top: 3em;
  }
-/* .input {
-  width: 100%;
-} */
 
 input#zip{
   width:35%;
