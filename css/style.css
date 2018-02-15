@@ -90,7 +90,7 @@ legend span{
 }
 
 input,
-#topics,
+#other_topics,
 #state {
   padding: 20px 10px;
   margin: 12px 0;
@@ -108,7 +108,7 @@ input,
 }
 
 #top-form input,
-#topics,
+#other_topics,
 #state {
   width: 100%;
 }
@@ -118,7 +118,7 @@ input,
 }
 
 input:focus,
-#topics:focus,
+#other_topics:focus,
 #state:focus {
   border: #3f5c5e solid 2px;
   outline: none;
@@ -129,6 +129,9 @@ background-color: #48a5a5;
 cursor: pointer;
 }
 
+.more-topics{
+  margin-top: 2em;
+}
 button  {
   width:100%;
   background-color: #42b2b2;
@@ -137,11 +140,12 @@ button  {
   border: none;
   font-size: 1.5em;
   font-family: 'Lora', serif;
+  color: #fff;
+  cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
+button:hover {
+  font-weight: 700;
 }
 /************** Footer ****************
 ***************************************/
