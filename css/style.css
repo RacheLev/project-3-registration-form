@@ -41,12 +41,15 @@ border-radius: 10px;
   text-align: center;
 }
 
-legend span{
+legend {
   font-weight: 700;
+
+  margin-right: 3.5em;
+  padding: 1em 0 1em 0;
+
+
   color: #2d3035;
-  font-weight: 700;
-  text-align: left;
-  font-size: 1.3em;
+  font-size: 1.3em; */
 }
 
 .latest_news {
