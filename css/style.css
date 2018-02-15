@@ -115,7 +115,9 @@ input,
 #state {
   width: 100%;
 }
-
+#other_topics{
+  margin-bottom: 2em;
+}
  input#zip {
   width: 50%;
 }
