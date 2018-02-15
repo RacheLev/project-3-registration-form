@@ -2,7 +2,6 @@
 **************************************/
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -15,7 +14,6 @@ body {
 .wrapper {
   width: 95%;
   margin: 0 auto;
-
 }
 
 /************** Main ***************
@@ -37,18 +35,18 @@ h1 {
 .bgr {
 background-color: #cbf4f4;
 border-radius: 10px;
-padding-top:
+
 }
 .signU{
   text-align: center;
 }
+
 legend span{
   font-weight: 700;
   color: #2d3035;
   font-weight: 700;
   text-align: left;
   font-size: 1.3em;
-
 }
 
 .latest_news {
@@ -70,20 +68,18 @@ legend span{
   background-color: #2d3035;
   margin-top: .3em;
 }
+
 /* form */
 #top-form {
   border-radius: 10px;
   margin: 2em 0;
-
 }
 
-#bottom-form{
-  /* background-color: #cbf4f4; */
+#bottom-form {
   border-radius: 10px;
   margin-top: 2em;
   padding-bottom: 2em;
 }
-
 
  fieldset {
   border: none;
@@ -165,7 +161,6 @@ footer {
 
 #top-form .input{
   text-align: right;
-
 }
 
   .flex-container {
@@ -174,28 +169,29 @@ footer {
   flex-wrap: nowrap;
   justify-content: space-between;
   justify-content: flex-start;
-  }
+}
 
   .flexchild {
   align-self: center;
   text-align: left;
-  }
+}
 
 .latest_news {
   margin-bottom: 2em;
 }
+
 #top-form input,
 #topics,
 #state {
   width: 70%;
 }
+
 #top-form {
   margin-top: 3em;
  }
 
 input#zip{
   width:35%;
-
 }
 
 label {
