@@ -15,15 +15,17 @@
 				<h1>the code review</h1>
 		  </header>
 
-		 <div class="wrapper">
+		 	<div class="wrapper">
 			 	<h2 class="signU">Signup for our newsletter</h2>
 				<p class="latest_news">Get the latest news on how your code is doing right in your inbox</p>
 	  		<hr class="thick_line"><hr class="thin_line">
-				<div class="bgr">
-					<form action="index.html" method="post">
-						<fieldset id="top-form">
-							<legend class="contact_info">Contact Information</legend>
 
+			<form action="index.html" method="post">
+
+						<fieldset id="top-form">
+
+						<legend class="contact_info">Contact Information</legend>
+						<div class="bgr">
 							<div class="flex-container">
 								<label class="flexchild" for="name">Full Name</label><br>
 								<input class="input" type="text" id="name" name="user_name" placeholder="Required"><br>
@@ -38,14 +40,17 @@
 								<label class="flexchild" for="telNo">Phone Number</label><br>
 								<input class="input" type="tel" id="telNo" name="telNo" placeholder="Required"><br>
 							</div>
+
 							<div class="flex-container">
 								<label class="flexchild" for="address">Street Address</label><br>
 								<input class="input" type="text" id="address" name="address" placeholder="Required"><br>
 							</div>
+
 							<div class="flex-container">
 								<label class="flexchild" for="city">City</label><br>
 								<input class="input" type="text" id="city" name="city" placeholder="Required"><br>
 							</div>
+
 							<div class="flex-container">
 							<label class="flexchild" for="state">State</label><br>
 									<select id="state" name="state">
@@ -108,25 +113,27 @@
 								<label class="flexchild" for="zip">Zip Code</label><br>
 								<input class="input" type="text" id="zip" name="zip_code"><br>
 							</div>
-						</div>
 
+						</div>
 						</fieldset>
+
 							  <hr class="thin_line">
-							  <div class="bgr">
+
 							  <fieldset id="bottom-form">
 									<legend class="newsletter">Newsletter</legend>
+									<div class="bgr">
 									<p>Select the newsletters you would like to recieve</p>
 									<input class="labels" type="checkbox" id="html_news" value="html_news" name="newsletter" checked>
-										<lable for="html_news">HTML News</label><br>
+										<label for="html_news">HTML News</label><br>
 									<input class="labels" type="checkbox" id="css_news" value="css_news" name="newsletter">
-										<lable for="css_new">CSS News</label><br>
+										<label for="css_news">CSS News</label><br>
 									<input type="checkbox" id="Javascript_news" value="javascript_news" name="newsletter">
-										<lable class="labels" for="Javascript_news">Javascript News</label>
+										<label class="labels" for="Javascript_news">Javascript News</label>
 										<p>Newsletter format</p>
 									<input type="radio" id="html_format" value="html_format" name="newsletter_format" checked>
-										<lable for="html_format">HTML</label><br>
+										<label for="html_format">HTML</label><br>
 									<input type="radio" id="plain_text" value="plain_text" name="newsletter_format">
-										<lable for="plain_text">Plain text</label>
+										<label for="plain_text">Plain text</label>
 									<div class="more-topics">
 										<label for="other_topics">Other topics you'd like to hear about</label>
 										<textarea id="other_topics" name="user_bio" cols="30" rows="6"></textarea><br>
@@ -134,8 +141,9 @@
 									<div>
 										<button type="submit">Sign Up</button>
 									</div>
+													 </div>
 			 				 </fieldset>
-						 </div>
+
 				   </form>
 
 				<footer>
