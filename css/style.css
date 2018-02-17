@@ -11,13 +11,14 @@ body {
   font-family: 'Lora', serif;
 }
 
+/************** Main ***************
+************************************/
+/* wrapper */
 .wrapper {
   width: 95%;
   margin: 0 auto;
 }
 
-/************** Main ***************
-************************************/
 /* header */
 h1 {
   background-color: #2d3035;
@@ -31,31 +32,13 @@ h1 {
   text-align: center;
 }
 
-/* body */
-.bgr {
-background-color: #cbf4f4;
-border-radius: 10px;
-padding: 1em 2em;
-
-}
-.signU{
-  text-align: center;
-}
-
-legend {
-  font-weight: 700;
-
-  margin-right: 3.5em;
-  padding: 1em 0 1em 0;
-
-
-  color: #2d3035;
-  font-size: 1.3em; */
-}
-
 .latest_news {
   font-size: 1.2em;
   color: #a3a7af;
+  text-align: center;
+}
+
+.signUp{
   text-align: center;
 }
 
@@ -74,17 +57,29 @@ legend {
 }
 
 /* form */
+.bgr {
+background-color: #cbf4f4;
+border-radius: 10px;
+padding: 1em 2em;
+}
+
+legend {
+  font-weight: 700;
+  margin-right: 3.5em;
+  padding: 1em 0 1em 0;
+  color: #2d3035;
+  font-size: 1.3em; */
+}
+
 #top-form {
   border-radius: 10px;
   margin: 2em 0;
-  /* background-color: #cbf4f4; */
 }
 
 #bottom-form {
   border-radius: 10px;
   margin-top: 2em;
   padding-bottom: 2em;
-  /* background-color: #cbf4f4; */
 }
 
  fieldset {
@@ -155,6 +150,111 @@ button  {
 button:hover {
   font-weight: 700;
 }
+
+/* Custom Checkbox */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* Custom Radio Button */
+.radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container:hover input ~ .radio {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .radio {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .radio:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .radio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
 /************** Footer ****************
 ***************************************/
 footer {
